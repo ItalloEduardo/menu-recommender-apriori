@@ -18,13 +18,13 @@ O objetivo é treinar uma IA que sugira produtos frequentemente comprados em con
 ---
 
 ## 📁 Estrutura do Projeto
-> 📂 intellimenu/ </br>
-├── recomenda_lanches.ipynb # Notebook principal com todo o processamento </br>
-├── gerar_csv.py # Função que gera a tabela de pedidos para uso como Base de Dados </br>
-├── README.md # Documentação do projeto </br>
+📂 intellimenu/ </br>
+├── recomenda_lanches.ipynb         # Notebook principal com todo o processamento </br>
+├── gerar_csv.py                    # Função que gera a tabela de pedidos para uso como Base de Dados </br>
+├── README.md                       # Documentação do projeto </br>
 ├── 📂 tabelas/ </br>
-    ├── pedidos.csv # Histórico de 2000 pedidos anteriores </br>
-    ├── cardapio.csv # Catálogo completo de produtos disponíveis
+    ├── pedidos.csv                 # Histórico de 2000 pedidos anteriores </br>
+    ├── cardapio.csv                # Catálogo completo de produtos disponíveis
 
 
 ---
@@ -40,8 +40,8 @@ O objetivo é treinar uma IA que sugira produtos frequentemente comprados em con
 
 ## 📊 Exemplo de Saída
 
-Se o carrinho contém: `[2, 12]`  # ['AI Bacon Boost', 'Extra Bacon'] </br>
-A IA pode recomendar: `[9, 3, 15]`  # ['Batata Frita com Cheddar e Bacon', 'Deep Learning Double', 'Refrigerante Lata'] </br>
+Se o carrinho contém: `[2, 12]`           # ["AI Bacon Boost", "Extra Bacon"] </br>
+A IA pode recomendar: `[9, 3, 15]`        # ["Batata Frita com Cheddar e Bacon", "Deep Learning Double", "Refrigerante Lata"] </br>
 
 > *Analisando recomendações para o carrinho: [2, 12] </br>
 >    Recomendação potencial adicionada: 9 (Lift: 1.6593) </br>
