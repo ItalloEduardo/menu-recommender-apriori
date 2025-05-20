@@ -1,6 +1,6 @@
 # 🍽️ IntelliMenu: Recomendador de Cardápio com IA
 
-Este projeto aplica o algoritmo **Apriori** para recomendar itens de cardápio com base em pedidos anteriores. Ele foi desenvolvido como parte de um trabalho acadêmico e simula um sistema de **recomendações inteligentes** utilizando regras de associação em Python, via Google Colab.
+Este projeto aplica o algoritmo **Apriori** para recomendar itens de cardápio com base em pedidos anteriores. Ele foi desenvolvido para a disciplina de Inteligência Artificial, no curso de Engenharia de Software, e simula um sistema de **recomendações inteligentes** utilizando regras de associação em Python, via Google Collab.
 
 ---
 
@@ -18,12 +18,12 @@ O objetivo é treinar uma IA que sugira produtos frequentemente comprados em con
 ---
 
 ## 📁 Estrutura do Projeto
-📂 intellimenu/
-├── recomenda_lanches.ipynb # Notebook principal com todo o processamento
-├── gerar_csv.py # Função que gera a tabela de pedidos para uso como Base de Dados 
-├── README.md # Documentação do projeto
-├── 📂 tabelas/
-    ├── pedidos.csv # Histórico de 2000 pedidos anteriores
+> 📂 intellimenu/ </br>
+├── recomenda_lanches.ipynb # Notebook principal com todo o processamento </br>
+├── gerar_csv.py # Função que gera a tabela de pedidos para uso como Base de Dados </br>
+├── README.md # Documentação do projeto </br>
+├── 📂 tabelas/ </br>
+    ├── pedidos.csv # Histórico de 2000 pedidos anteriores </br>
     ├── cardapio.csv # Catálogo completo de produtos disponíveis
 
 
@@ -40,16 +40,16 @@ O objetivo é treinar uma IA que sugira produtos frequentemente comprados em con
 
 ## 📊 Exemplo de Saída
 
-Se o carrinho contém: `[2, 12]`  # ['AI Bacon Boost', 'Extra Bacon']
-A IA pode recomendar: `[9, 3, 15]`  # ['Batata Frita com Cheddar e Bacon', 'Deep Learning Double', 'Refrigerante Lata']
+Se o carrinho contém: `[2, 12]`  # ['AI Bacon Boost', 'Extra Bacon'] </br>
+A IA pode recomendar: `[9, 3, 15]`  # ['Batata Frita com Cheddar e Bacon', 'Deep Learning Double', 'Refrigerante Lata'] </br>
 
-> *Analisando recomendações para o carrinho: [2, 12]
->    Recomendação potencial adicionada: 9 (Lift: 1.6593)
->    Recomendação potencial adicionada: 3 (Lift: 1.8593)
->    Recomendação potencial adicionada: 9 (Lift: 2.1312)
->    Recomendação potencial adicionada: 15 (Lift: 1.7910)
->    Recomendação potencial adicionada: 9 (Lift: 2.9939)*
-> *Recomendações para [2, 12]: [9, 3, 15]*
+> *Analisando recomendações para o carrinho: [2, 12] </br>
+>    Recomendação potencial adicionada: 9 (Lift: 1.6593) </br>
+>    Recomendação potencial adicionada: 3 (Lift: 1.8593) </br>
+>    Recomendação potencial adicionada: 9 (Lift: 2.1312) </br>
+>    Recomendação potencial adicionada: 15 (Lift: 1.7910) </br>
+>    Recomendação potencial adicionada: 9 (Lift: 2.9939)* </br>
+> *Recomendações para [2, 12]: [9, 3, 15]* </br>
 
 > *Com base em compras anteriores que frequentemente associaram esses itens.*
 
