@@ -1,0 +1,19 @@
+id_produto,nome_produto,categoria,preco
+1,Neural Smash,Hamburguer,26.9
+2,AI Bacon Boost,Hamburguer,28.9
+3,Deep Learning Double,Hamburguer,32.9
+4,Quantum Blend,Hamburguer,34.9
+5,Cyber Classic,Hamburguer,30.9
+6,Data Crunch,Hamburguer,33.9
+7,Machine Melt,Hamburguer,31.9
+8,Batata Frita Clássica,Acompanhamento,12.9
+9,Batata Frita com Cheddar e Bacon,Acompanhamento,19.9
+10,Onion Rings,Acompanhamento,14.9
+11,Extra Queijo,Adicional,4.0
+12,Extra Bacon,Adicional,4.0
+13,Ovo Frito,Adicional,4.0
+14,Maionese Trufada ou Defumada,Adicional,4.0
+15,Refrigerante Lata,Bebida,6.9
+16,Suco Natural,Bebida,8.9
+17,Milkshake,Bebida,14.9
+18,Água Mineral,Bebida,4.9
