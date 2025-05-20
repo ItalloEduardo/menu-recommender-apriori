@@ -23,8 +23,8 @@ O objetivo é treinar uma IA que sugira produtos frequentemente comprados em con
 ├── gerar_csv.py                    # Função que gera a tabela de pedidos para uso como Base de Dados </br>
 ├── README.md                       # Documentação do projeto </br>
 ├── 📂 tabelas/ </br>
-    ├── pedidos.csv                 # Histórico de 2000 pedidos anteriores </br>
-    ├── cardapio.csv                # Catálogo completo de produtos disponíveis
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── pedidos.csv                 # Histórico de 2000 pedidos anteriores </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── cardapio.csv                # Catálogo completo de produtos disponíveis
 
 
 ---
